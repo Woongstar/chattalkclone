@@ -1,2 +1,3 @@
 #Chat web Clone
--HTML/CSS KAKAOtalk clone coding
+
+-HTML과 CSS를 사용한 카카오톡 클론코딩
