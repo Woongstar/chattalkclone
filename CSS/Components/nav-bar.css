@@ -1,0 +1,44 @@
+.nav {
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  background-color: rgb(204, 202, 202);
+  padding: 15px 40px;
+  box-sizing: border-box;
+  border-top: 1px solid rgba(214, 211, 211, 0.4);
+}
+.nav__list {
+  display: flex;
+  justify-content: space-between;
+}
+.nav__link {
+  position: relative;
+  color: black;
+}
+.nav__link__alaram {
+  background-color: rgb(236, 49, 49);
+  width: 15px;
+  height: 15px;
+  display: block;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: whitesmoke;
+  font-size: 4px;
+  font-weight: 400;
+  position: absolute;
+  left: 14px;
+  top: -5px;
+}
+.nav__link__dat {
+  background-color: rgb(236, 49, 49);
+  display: block;
+  display: flex;
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  position: absolute;
+  right: 2px;
+  top: -2.5px;
+}
