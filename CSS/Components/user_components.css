@@ -2,6 +2,10 @@
   padding-left: var(--horizontal-space);
   padding-right: 15px;
 }
+.find-screen {
+  padding-left: var(--horizontal-space);
+  padding-right: 15px;
+}
 .user-component {
   display: flex;
   justify-content: space-between;
@@ -50,16 +54,8 @@
   font-size: 14px;
   font-weight: 400px;
 }
-
-.friends-screen__channel {
-  margin-top: 10px;
-  border-top: 1px solid rgba(0, 0, 0, 0.2);
-  padding-top: 10px;
-}
-.friends-screen__channel-header {
-  display: flex;
+.user-component__time {
   margin-bottom: 10px;
-  justify-content: space-between;
-  color: rgba(0, 0, 0, 0.5);
-  font-size: 15px;
+  display: block;
+  color: rgba(0, 0, 0, 0.4);
 }

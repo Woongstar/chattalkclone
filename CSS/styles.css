@@ -7,6 +7,8 @@
 @import "Components/nav-bar.css";
 @import "Components/screen-header.css";
 @import "Components/user_components.css";
+@import "Components/notice.css";
+@import "Screens/find.css";
 body {
   font-family: "Noto Sans KR", sans-serif;
   /* background-color: #b3c6ff; */
