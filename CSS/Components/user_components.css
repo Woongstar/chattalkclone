@@ -2,6 +2,10 @@
   padding-left: var(--horizontal-space);
   padding-right: 15px;
 }
+.more-screen {
+  padding-left: var(--horizontal-space);
+  padding-right: 15px;
+}
 .find-screen {
   padding-left: var(--horizontal-space);
   padding-right: 15px;
@@ -29,6 +33,7 @@
 .user-component__title {
   font-weight: 600;
   font-size: 16px;
+  color: black;
 }
 .user-component__subtitle {
   margin-top: 5px;
@@ -58,4 +63,28 @@
   margin-bottom: 10px;
   display: block;
   color: rgba(0, 0, 0, 0.4);
+}
+.user-component__phone-number {
+  display: flex;
+  position: relative;
+  color: var(--grey--);
+  padding: 5px;
+  font-size: 13px;
+}
+.user-component__phone-number__notice {
+  background-color: whitesmoke;
+  width: 12px;
+  height: 12px;
+  border: 1px solid red;
+  display: block;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 4px;
+  font-weight: 400;
+  position: absolute;
+  left: 126px;
+  top: 4px;
 }
