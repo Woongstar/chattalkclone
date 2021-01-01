@@ -1,12 +1,4 @@
-.friends-screen {
-  padding-left: var(--horizontal-space);
-  padding-right: 15px;
-}
-.more-screen {
-  padding-left: var(--horizontal-space);
-  padding-right: 15px;
-}
-.find-screen {
+.main-screen {
   padding-left: var(--horizontal-space);
   padding-right: 15px;
 }

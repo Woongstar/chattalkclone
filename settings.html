@@ -4,7 +4,7 @@
     <link rel="stylesheet" href="css/styles.css" />
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Chats Page Woongstar Talk</title>
+    <title>Find Page Woongstar Talk</title>
   </head>
   <body>
 
@@ -26,34 +26,42 @@
         <!-- charging ICon -->
       </div>
     </div>
-    <header class="friends-header">
-        <h1 class="friends-header__text">Chats</h1>
-        <div class="friends-header__icon"><span>
-            <i class="fas fa-search fa-lg"></i></a>
-        </span>
-        <span><i class="far fa-comment-dots fa-lg"></i></span>
-        <span><i class="fas fa-music fa-lg"></i></span>
-        <span><a href="settings.html"><i class="fas fa-cog fa-lg"></a></i></span>
-        </div>
-    </header>
+   <header class="alt-header">
+       <div class="alt-header__column"><a href="more.html"><i class="fas fa-angle-left fa-2x"></i></a></div>
+       <div class="alt-header__column">
+           <h1 class="alt-header__title">Settings</h1>
+       </div>
+       <div class="alt-header__column">
+           <i class="fas fa-search fa-lg"></i> 
+       </div>
+   </header>
     <main class="main-screen">
-      <a href="chat.html">
-<div class="user-component">
-    <div class="user-component__column">
-        <img src="https://avatars1.githubusercontent.com/u/69667560?s=400&u=392d98ecfb8f3efaa946d80f30477d872d77a89b&v=4" 
-        class="user-component__picture user-component__picture"/>
-        <div class="user-component__text">
-            <h4 class="user-component__title">Woongstar</h4>
-            <h6 class="user-component__subtitle">야 야 밥먹게</h6>
-        </div>
-    </div>
-  </a>
-<div class="user-component__column">
-    <span class="user-component__time">21:22</span>
-    <span class="badge">1</span>
-</div>
-</div>
-</main>
+        <ul class="settings-list">
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                <i class="fas fa-bullhorn"></i>
+                <span>Notices</span>
+            </div>
+            </li>
+            
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                <i class="fas fa-flask"></i>
+                <span>Kakao Lab</span>
+                </div>
+            </li>
+            
+            <li class="settings-setting">
+                <div class="settings-setting__column">
+                <i class="fas fa-info-circle"></i>
+                <span>Version</span>
+                </div>
+                <div class="settings-setting__column__add">Latest Version
+                </div>
+            </li>
+        </ul>
+        
+    </main>
     <nav class="nav">
       <ul class="nav__list">
         <li class="nav__btn">
@@ -62,7 +70,7 @@
         <li>
           <a class="nav__link" href="chats.html">
             <span class="nav__link__alaram">1</span>
-            <i class="fas fa-comment fa-lg"></i
+            <i class="far fa-comment fa-lg"></i
           ></a>
         </li>
         <li>

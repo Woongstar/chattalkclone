@@ -11,6 +11,9 @@
 @import "Screens/find.css";
 @import "Components/icon-row.css";
 @import "Screens/more.css";
+@import "Components/alt_screen-header.css";
+@import "Screens/settings.css";
+@import "Screens/chat.css";
 body {
   font-family: "Noto Sans KR", sans-serif;
   /* background-color: #b3c6ff; */
