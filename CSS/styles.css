@@ -1,20 +1,20 @@
 @import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR&display=swap");
 @import "reset.css";
 @import "variable.css";
-@import "Screens/mainpage.css";
-@import "Screens/friends.css";
-@import "Components/status-bar.css";
-@import "Components/nav-bar.css";
-@import "Components/screen-header.css";
-@import "Components/user_components.css";
-@import "Components/notice.css";
-@import "Screens/find.css";
-@import "Components/icon-row.css";
-@import "Screens/more.css";
-@import "Components/alt_screen-header.css";
-@import "Screens/settings.css";
-@import "Screens/chat.css";
-@import "Components/only-mobile.css";
+@import "screens/mainpage.css";
+@import "screens/friends.css";
+@import "components/status-bar.css";
+@import "components/nav-bar.css";
+@import "components/screen-header.css";
+@import "components/user_components.css";
+@import "components/notice.css";
+@import "screens/find.css";
+@import "components/icon-row.css";
+@import "screens/more.css";
+@import "components/alt_screen-header.css";
+@import "screens/settings.css";
+@import "screens/chat.css";
+@import "components/only-mobile.css";
 body {
   font-family: "Noto Sans KR", sans-serif;
   /* background-color: #b3c6ff; */
