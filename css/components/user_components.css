@@ -1,0 +1,82 @@
+.main-screen {
+  padding-left: var(--horizontal-space);
+  padding-right: 15px;
+}
+.user-component {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.user-component__column:first-child {
+  display: flex;
+  align-items: center;
+}
+.user-component__column:last-child {
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 13px;
+}
+.user-component__picture {
+  width: 60px;
+  height: 60px;
+  border-radius: 20px;
+  margin-right: 23px;
+}
+.user-component__title {
+  font-weight: 600;
+  font-size: 16px;
+  color: black;
+}
+.user-component__subtitle {
+  margin-top: 5px;
+  padding-left: 5px;
+  font-size: 14px;
+  color: rgba(0, 0, 0, 0.5);
+}
+.user-component__picture--xl {
+  width: 75px;
+  height: 75px;
+  border-radius: 20px;
+  margin-right: 23px;
+  margin-top: 3px;
+}
+.user-component__picture--sm {
+  width: 55px;
+  height: 55px;
+  border-radius: 17px;
+  margin-right: 23px;
+  margin-top: 3px;
+}
+.user-component__title__channel {
+  font-size: 14px;
+  font-weight: 400px;
+}
+.user-component__time {
+  margin-bottom: 10px;
+  display: block;
+  color: rgba(0, 0, 0, 0.4);
+}
+.user-component__phone-number {
+  display: flex;
+  position: relative;
+  color: var(--grey--);
+  padding: 5px;
+  font-size: 13px;
+}
+.user-component__phone-number__notice {
+  background-color: whitesmoke;
+  width: 12px;
+  height: 12px;
+  border: 1px solid red;
+  display: block;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: red;
+  font-size: 4px;
+  font-weight: 400;
+  position: absolute;
+  left: 126px;
+  top: 4px;
+}
